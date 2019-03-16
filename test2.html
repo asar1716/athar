@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="all.css" />
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/tes2.css"/>
+<link rel="stylesheet" href="css/style2.css"/>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+</head>
+<body>
+<div class="one">
+<div class="col-xs-6  gh2 f text-center">connect with facebook</div>
+<div class="col-xs-6  gh f text-center">connect with twitter</div>
+<br><br><br><br>
+<h1 class="f2 text-center">OR SIGN Up WITH</h1>
+<br><br><br><br>
+<form >
+<div class="form-group row">
+<div class="col-xs-4">
+<input type="text" placeholder="first Name" class="form-control input-lg h " />
+</div>
+<div class="col-xs-4">
+<input type="text" placeholder="Last Name" class="form-control input-lg h2 " />
+</div>
+<div class="col-xs-10">
+<input type="e-mail"  class="form-control input-lg h3" placeholder="Your E-mail"/>
+</div>
+<div class="col-xs-10">
+<input type="password"  class="form-control input-lg h3" placeholder="Your Password"/>
+</div>
+</div>
+</form>
+<h1 class="f2">By Creating an account,you agree to our terms & conditions o</h1>
+
+<button class="btn btn-success col-xs-10 d" type="submit">Ceate Account</button">
+
+</div>
+
+
+
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+$(document).ready(function(){
+$(".f,.f2,.h,.h2,.h3,.d").hide();
+$(".one").animate({marginTop:'150px'},1700,function(){$(".one").animate({width:'+=200px'},1000,
+function(){$(".one").animate({marginLeft:'400px',width:'+=100px'},500,
+
+function(){$(".one").animate({height:'500px'},1000,function(){$(".f").show(1000,function(){$(".f2").show(700,$(".h,.h2").show(700,$(".h3,.d").show(700)));});})}
+)}
+)}
+)
+
+});
+</script> 
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

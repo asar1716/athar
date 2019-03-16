@@ -1,0 +1,18 @@
+
+.rounded-circle{
+	width:100px;
+	height:100px;
+}
+.clear{
+	clear:both;
+}
+.col-3{
+	background-color: transparent;
+}
+.container-fluid{
+	margin-top:5%;
+}
+.sidebar{
+	margin-top:-10px;
+	margin-left:-10px;
+}

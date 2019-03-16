@@ -1,0 +1,36 @@
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td
+{border:1px solid #AEB404;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td
+{border:1px solid #AEB404;
+}
+#ui:focus
+{border:1px solid white;
+border-bottom:2px solid #AEB404;
+}
+.doc
+{
+color:#AEB404;
+}
+#ou
+{background-color:#AEB404;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a
+{color:#AEB404;
+}
+
+.option .okk
+{
+border:2px solid #AEB404;
+}
+.glyphicon-cog
+{
+color:#AEB404;
+}
+.footer
+{background-color:#AEB404;
+}
+.glyphicon-triangle-right
+{color:#AEB404;
+}
